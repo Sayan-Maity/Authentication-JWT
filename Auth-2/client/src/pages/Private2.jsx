@@ -1,10 +1,11 @@
 import React from 'react'
-import Logout from '../component/Logout'
+import Navbar from '../component/Navbar'
+
 const DemoPrivate = () => {
   return (
     <div>
-      <h1>Demo Private Page</h1>
-      <Logout />
+      <Navbar/>
+      <h1>Demo Private Route</h1>
     </div>
   )
 }
